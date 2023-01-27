@@ -33,6 +33,12 @@ git clone
 cd nd-quadrature
 ```
 
+## Testing
+
+```bash
+pytest
+```
+
 ## References
 
 1. [Gauss-Legendre quadrature](https://en.wikipedia.org/wiki/Gauss%E2%80%93Legendre_quadrature)

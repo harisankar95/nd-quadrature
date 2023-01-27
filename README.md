@@ -1,6 +1,6 @@
 # nd-quadrature
 
-Generate n-Dimensional gaussian quadrature points and weights.
+Generate n-Dimensional gaussian quadrature points and weights. Integrate n-Dimensional functions using the generated quadrature points and weights. This is a python implementation of the algorithm described in [1] for educational purposes. The algorithm is not optimized for speed. Please use a more optimized implementations for production like [scipy.integrate.nquad](https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.nquad.html).
 
 ## Usage
 
@@ -29,13 +29,14 @@ result = integrateQuad(f, limits, 3)
 ## Development
 
 ```bash
-git clone
-cd nd-quadrature
+git clone https://github.com/harisankar95/nd-quadrature.git path/to/nd-quadrature
+cd path/to/nd-quadrature
 ```
 
 ## Testing
 
 ```bash
+cd path/to/nd-quadrature
 pytest
 ```
 
